@@ -3,8 +3,8 @@ import bcrypt
 
 def password_length(password):
 """Returns a strength score from 0-5 and feedback"""
-score = 0
-feedback = []
+	score = 0
+	feedback = []
 
 #length check
 if len(password) >= 8:
