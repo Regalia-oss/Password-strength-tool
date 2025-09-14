@@ -2,7 +2,7 @@ import re
 import bcrypt
 
 def password_length(password):
-"""Returns a strength score from 0-5 and feedback"""
+	"""Returns a strength score from 0-5 and feedback"""
 	score = 0
 	feedback = []
 
